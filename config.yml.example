@@ -43,6 +43,10 @@ rabbit:
   password: fhtaskspassword
   queue: fh-tasks-gitlab-postreceive
 
+
+http_settings:
+  enabled:true
+  host:"testing.feedhenry.me"
 # Log file.
 # Default is gitlab-shell.log in the root directory.
 # log_file: "/home/git/gitlab-shell/gitlab-shell.log"
